@@ -1,3 +1,19 @@
+CREATE TABLE student_marks(
+student_idNUMBER PRIMARY KEY,
+subject1_marks NUMBER,
+subject2_marks NUMBER,
+subject3_marks NUMBER,
+subject4_marks NUMBER
+  );
+
+
+INSERT INTO student_marks(student_id, subject1_marks, subject2_marks, subject3_marks, subject4_marks)
+VALUES (1, 85, 90, 78, 92);
+INSERT INTO student_marks(student_id, subject1_marks, subject2_marks, subject3_marks, subject4_marks)
+VALUES (2, 70, 75, 80, 88);
+INSERT INTO student_marks(student_id, subject1_marks, subject2_marks, subject3_marks, subject4_marks)
+VALUES (3, 60, 65, 72, 58);
+
 DECLARE
   
     v_total NUMBER;
